@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    <PackageReference Include="Microsoft.Windows.EventTracing.Processing.All" Version="1.10.0" />
+    <PackageReference Include="NLog" Version="5.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\xinde\.nuget\packages\microsoft.windows.eventtracing.processing.outputredirection\1.10.0\build\x64\NativeOutputRedirector.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\xinde\.nuget\packages\microsoft.windows.eventtracing.processing.outputredirection\1.10.0\build\x64\NativeOutputRedirector.dll" />
+  </ItemGroup>
+
+</Project>

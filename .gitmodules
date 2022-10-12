@@ -1,0 +1,3 @@
+[submodule "Samples/eventtracing-processing-samples"]
+	path = Samples/eventtracing-processing-samples
+	url = https://github.com/microsoft/eventtracing-processing-samples.git

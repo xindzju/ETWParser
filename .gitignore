@@ -1,0 +1,8 @@
+.vs
+Properties
+bin
+obj
+c-sharp-code-examples
+
+*.etl
+Merged.txt
